@@ -1,0 +1,48 @@
+.home h1 {
+    color: #DC2525;  
+    margin-top: 60px; 
+}
+h1, h2, h3 {
+    text-align: center;
+}    
+.mon1, .mon2, .mon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.trangchu{
+    position: fixed;   
+    top: 10px;        
+    left: 10px;        
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+body {
+    font-family: "Times New Roman", serif;
+    background: #CAE8BD ;
+}
+.bida h3, .swimming h3, .volleyball h3 {
+    color: #B33791;
+}
+.bida h2, .swimming h2, .volleyball h2 {
+    margin-top: 60px;
+}
+
+#home_but {
+  transition: all 3s ease;
+  background-color: purple;
+}
+#bida_but, #swimming_but, #volleyball_but {
+    transition: all 3s ease;
+    background-color: yellow;
+}
+
+#home_but.clicked, #bida_but.cliked, #swimming_but.clicked, #volleybal_but.clicked {
+  transform: scale(5.0);
+  background-color: black;  
+}
+
